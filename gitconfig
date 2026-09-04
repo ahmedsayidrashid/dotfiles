@@ -1,0 +1,10 @@
+[user]
+	name = Ahmed Rashid
+	email = AhmedsayidRashid@gmail.com
+[init]
+	defaultBranch = main
+[pull]
+   	 rebase = true
+
+[push]
+   	 autoSetupRemote = true
