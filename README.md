@@ -22,8 +22,7 @@ Each top-level directory is a Stow "package" whose internal path mirrors
    brew install stow          # macOS
    ```
 
-2. Symlink the dotfiles into your home directory with Stow. The `-t ~`
-   flag tells Stow to create the symlinks relative to your home directory:
+2. Clone the repo, and symlink the dotfiles into your home directory with Stow. The `-t ~` flag tells Stow to create the symlinks relative to your home directory:
 
    ```sh
    # Stow a single package
