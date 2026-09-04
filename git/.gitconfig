@@ -1,0 +1,22 @@
+[user]
+	name = Ahmed Rashid
+	email = AhmedsayidRashid@gmail.com
+[init]
+	defaultBranch = main
+[pull]
+    rebase = true
+[push]
+   	autoSetupRemote = true
+[rebase]
+    autoStash = true
+[branch]
+   	sort = -committerdate
+[alias]
+    st = status -sb
+    co = checkout
+    sp = stash push
+	undo = reset --soft HEAD~1
+[diff]
+    algorithm = histogram
+[rerere]
+    enabled = true
