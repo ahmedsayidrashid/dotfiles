@@ -1,0 +1,50 @@
+# BEGIN_KITTY_THEME
+# kitty.conf
+
+# Font
+font_family FiraCode Nerd Font
+font_size 12.5
+
+# Background image (absolute path)
+background_image /home/ahmed/Downloads/background.jpg
+background_image_layout scaled  
+# options: tiled, centered, scaled
+
+# Opacity (0.0 = fully transparent, 1.0 = opaque)
+# background_opacity 0.85
+
+# Default text and background colors
+foreground #f8f0f2
+background #131e2e
+
+# Cursor
+cursor #f33333
+cursor_text_color #1e172e
+
+# Selection colors
+selection_background #44475a
+selection_foreground #ffffff
+
+# URL highlight color
+url_color #8be9fd
+
+# Color palette
+color0  #000000
+color1  #ff5555
+color2  #50fa7b
+color3  #f1fa8c
+color4  #bd93f9
+color5  #ff79c6
+color6  #8be9fd
+color7  #bbbbbb
+color8  #44475a
+color9  #ff6e6e
+color10 #69ff94
+color11 #ffffa5
+color12 #d6acff
+color13 #ff92df
+color14 #a4ffff
+color15 #ffffff
+
+# Ignore the warning when pasting multiple lines into Kitty
+multi_line_paste_warning false
